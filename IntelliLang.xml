@@ -1,0 +1,8 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="DTD" injector-id="xml">
+      <display-name>ScrollView/@context</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("context")).withNamespace(string().equalTo("http://schemas.android.com/tools")).withParent(xmlTag().withLocalName(string().equalTo("ScrollView")))]]></place>
+    </injection>
+  </component>
+</application>
